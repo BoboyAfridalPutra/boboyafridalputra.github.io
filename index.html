@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title> My Portofolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -12,47 +12,47 @@
 </head>
 
 <body>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg " style="background-color: #1E293B;">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand" href="#">
-                <img src="image/image.png" alt="Bootstrap" width="30" height="24">
-            </a>
-            <!-- logo -->
-
-
-            <a class="navbar-brand" href="#">BOBOY AFRIDAL PUTRA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">My galerry</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contack</a>
-                    </li>
+    <section id="Home">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-lg " style="background-color: #1E293B;">
+            <div class="container">
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="image/image.png" alt="Bootstrap" width="30" height="24">
+                </a>
+                <!-- logo -->
 
 
+                <a class="navbar-brand" href="#">BOBOY AFRIDAL PUTRA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#gallery">My galerry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#kontak">Contact</a>
+                        </li>
 
-                </ul>
+
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </section>
 
     <!-- alhir navbar -->
 
@@ -72,7 +72,7 @@
     <!-- akhir jumbotron -->
 
     <!-- About -->
-    <section id="about " style="background-color: #000b76 ">
+    <section id="about" style="background-color: #000b76 ">
         <div class="container text-light">
             <div class="row text-center mb-3">
                 <div class="col">
@@ -204,26 +204,23 @@
                 </div>
             </div>
 
-            <!-- PERUBAHAN 1: Menambahkan align-items-center agar posisi teks & foto sejajar vertikal di desktop -->
+
             <div class="row align-items-center justify-content-center">
 
-                <!-- PERUBAHAN 2: Menambahkan kolom teks baru sebelum carousel -->
-                <!-- col-12 (full width di HP), col-lg-5 (lebar 5 kolom di laptop) -->
-                <!-- text-center (tengah di HP), text-lg-start (rata kiri di laptop) -->
+
                 <div class="col-12 col-lg-5 text-light mb-4 mb-lg-0 text-center text-lg-start px-4">
-                    <h3 class="fw-bold mb-3">Stories in the Sky</h3>
+                    <h3 class="fw-bold mb-3">Life Through My Lens</h3>
                     <p class="text-white-50 lead fs-6">
-                        Memotret bukan sekadar menekan tombol, melainkan tentang mengabadikan ruang, waktu, dan rasa
-                        yang terbang bebas.
+                        Melihat dunia dari sudut pandang yang berbeda, satu foto dalam satu waktu.
                     </p>
                 </div>
 
-                <!-- PERUBAHAN 3: Mengubah ukuran kolom carousel dari col-lg-6 menjadi col-lg-7 agar pas berpasangan dengan teks (5 + 7 = 12) -->
+
                 <div class="col-12 col-md-10 col-lg-7">
 
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
 
-                        <!-- Tambahan class rounded dan shadow agar ujung foto lebih halus dan terlihat rapi -->
+
                         <div class="carousel-inner rounded shadow-lg">
                             <div class="carousel-item active">
                                 <img src="image/10.jpg" class="d-block w-100" alt="Foto Galeri 1">
@@ -274,7 +271,7 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" d-block>
-            <!-- Warna gelombang ini (#0F172A) harus sama dengan warna section kontak di bawah -->
+
             <path fill="#0F172A" fill-opacity="1"
                 d="M0,160L30,133.3C60,107,120,53,180,74.7C240,96,300,192,360,192C420,192,480,96,540,85.3C600,75,660,149,720,181.3C780,213,840,203,900,170.7C960,139,1020,85,1080,96C1140,107,1200,181,1260,186.7C1320,192,1380,128,1410,96L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
             </path>
@@ -289,14 +286,14 @@
             <div class="row">
                 <div class="col text-light text-center py-5">
                     <h2>CONTACT ME</h2>
-                    <p class="lead">Punya pertanyaan atau tawaran kerja sama? Jangan ragu untuk menghubungi saya!</p>
+                    <p class="lead">Kalau ada ada pertanyaan atau kerja sama bisa di hubungi kontak di bawah ini !</p>
                 </div>
             </div>
 
             <!-- Isi Kontak -->
             <div class="row text-light justify-content-center">
 
-                <!-- Bagian Kiri: Informasi Kontak & Sosial Media -->
+
                 <div class="col-md-5 mb-5 mb-md-0">
                     <h4 class="mb-4">Informasi Kontak</h4>
 
@@ -307,13 +304,14 @@
                         <i class="bi bi-envelope-fill text-primary me-2"></i> boboyafridal@gmail.com
                     </p>
                     <p class="mb-4">
-                        <i class="bi bi-whatsapp text-primary me-2"></i> +62 812-XXXX-XXXX
+                        <i class="bi bi-whatsapp text-primary me-2"></i> +62 812-4658-4566
                     </p>
 
                     <h4 class="mb-3 mt-4">Media Sosial</h4>
                     <!-- Ganti tanda # dengan link profil aslimu -->
-                    <a href="#" class="text-light me-3 fs-4" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="#" class="text-light me-3 fs-4" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href=" BoboyAfridalPutra/boboyafridalputra.github.io" class="text-light me-3 fs-4"
+                        target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.tiktok.com/@tekbobb" class="text-light me-3 fs-4" target="_blank"><i class="bi bi-tiktok"></i></a>
                     <a href="https://www.instagram.com/boboy_367?igsh=MWhlN3pzejhrZnRhOQ==" class="text-light fs-4"
                         target="_blank"><i class="bi bi-instagram"></i></a>
                 </div>
@@ -327,13 +325,13 @@
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="email" placeholder="Masukan email anda">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Pesan</label>
-                            <!-- rows="4" mengatur tinggi kotak pesan -->
+
                             <textarea class="form-control" id="message" rows="4"
-                                placeholder="Tulis pesan Anda di sini..."></textarea>
+                                placeholder="Tuliskan pesan di sini."></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary w-100 fw-bold">Kirim Pesan</button>
                     </form>
